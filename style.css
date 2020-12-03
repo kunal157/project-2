@@ -1,0 +1,128 @@
+body {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url("bg.jpg");
+}
+
+.container {
+    /* border: solid blue; */
+    background-color: gray;
+    padding: 1px 16px
+}
+
+.left {
+    /* background-color: gray; */
+    /* border: solid red; */
+    display: inline-block;
+    position: absolute;
+
+    left: 10px;
+
+
+}
+
+.center {
+    /* border: solid rgb(8, 241, 39); */
+    display: block;
+
+    width: 33%;
+    margin: 0px auto;
+
+
+}
+
+.right {
+    border: solid yellow;
+    position: absolute;
+    right: 60px;
+    top: 10px;
+
+}
+
+.navbar li {
+    display: inline-block;
+    margin: 10px;
+    padding: 4px 4px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+    padding: 0px 1px;
+    margin: 0px -1px;
+}
+
+.navbar li a:hover
+ {
+    text-decoration: underline;
+    color: rgb(218, 188, 188);
+}
+
+.navbar li.active:before{
+color: green;
+text-decoration: underline;
+}
+
+.image img {
+    width: 100%;
+    /* height: 50%; */
+    position: absolute;
+
+}
+
+.left p {
+    color: rgb(116, 243, 31);
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.what {
+    position: absolute;
+    bottom: 8px;
+    left: 36px;
+    font-size: 80px;
+    position: absolute;
+}
+
+.enquiry {
+    border: solid rgb(220, 236, 189);
+    display: block;
+    width: 513px;
+    margin-top: 200px;
+    margin-left: 107px;
+    border-radius: 31px;
+    height: 300px;
+
+}
+
+.enquiry h2 {
+    text-align: center;
+    color: rgb(224, 148, 60);
+}
+
+.form-setup input,
+.enquiry button {
+    font-family: 'Baloo Bhai', cursive;
+    display: block;
+    margin: 2px auto;
+    padding: 4px;
+    text-align: center;
+    border: 2px solid black;
+    width: 395px;
+    font-size: 16px;
+    background-color: rgb(226, 169, 169);
+    border-radius: 10px;
+}
+
+.enquiry button {
+    background-color: rgb(204, 145, 145);
+}
+
+.enquiry button:hover {
+    cursor: pointer;
+    color: white;
+
+}
